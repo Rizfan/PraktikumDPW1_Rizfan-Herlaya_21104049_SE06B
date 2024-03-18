@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan bootstrap 4</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Fluid jumbotron</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="image.jpeg" class="rounded-circle" alt="profile" width="100%">
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Informasi</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">Nama Lengkap</div>
+                            <div class="col-md-6">: Kang Daniel</div>
+                        
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">Tempat, Tanggal Lahir</div>
+                            <div class="col-md-6">: Busan, 10 Desember 1996</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">Alamat</div>
+                            <div class="col-md-6">: Korea Selatan</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">Kontak</div>
+                        <div class="col-md">:</div>
+                        <div class="col-md-8">
+                            <ul>
+                                <li>daniel.k.here</li>
+                                <li>Kang Daniel Official</li>
+                                <li>(+82)123456789</li>
+                                <li>kangdan10@gmail.com</li>
+                            </ul>
+                        </div>
+                
+                        </div>
+                        <a href="#" class="btn btn-primary">More info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Riwayat Pendidikan</h5>
+                <div class="list-group">
+                    <div class="list-group-item list-group-item-action">
+                        <h5 class="mb-1">Perguruan Tinggi Kita</h5>
+                        <p class="mb-1">Jurusan Kita</p>
+                        <small>2021 - Sekarang</small>
+                    </div>
+                    <div class="list-group-item list-group-item-action">
+                        <h5 class="mb-1">Sekolah Menengah Atas</h5>
+                        <p class="mb-1">Jurusan Kita</p>
+                        <small>2021 - 2021</small>
+                    </div>
+                    <div class="list-group-item list-group-item-action">
+                        <h5 class="mb-1">Sekolah Menengah Pertama</h5>
+                        <small>2021 - 2021</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5 mb-5"><h4>Pencapaian dan Pengalaman</h4></div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+
+                    <div class="card-header">
+                        <h5 class="card-title">Pencapaian</h5>
+                    </div>
+
+                    <div class="list-group list-group-horizontal">
+                        <div class="list-group-item">Pencapaian 1</div>
+                        <div class="list-group-item">Pencapaian 2</div>
+                        <div class="list-group-item">Pencapaian 3</div>
+                        <div class="list-group-item">Pencapaian 4</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+            
+                    <div class="card-header">
+                        <h5 class="card-title">Pengalaman</h5>
+                    </div>
+            
+                    <div class="list-group list-group-horizontal">
+                        <div class="list-group-item">Pengalaman 1</div>
+                        <div class="list-group-item">Pengalaman 2</div>
+                        <div class="list-group-item">Pengalaman 3</div>
+                        <div class="list-group-item">Pengalaman 4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
