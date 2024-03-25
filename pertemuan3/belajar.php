@@ -17,11 +17,11 @@
 // define("nama", "Kang Daniel");
 // echo nama;
 
-function tambah($a, $b)
-{
-    $total = $a + $b;
-    return $total;
-}
+// function tambah($a, $b)
+// {
+//     $total = $a + $b;
+//     return $total;
+// }
 
-$total = tambah(5, 9);
-echo $total;
+// $total = tambah(5, 9);
+// echo $total;
